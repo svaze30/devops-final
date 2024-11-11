@@ -1,0 +1,321 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+:root {
+  background: url(backdrop2.jpg);
+  background-size: cover;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  overflow-x: hidden;
+}
+
+.container {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(8px);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+  position: relative;
+  height: 600px;
+  overflow: scroll;
+  display: flex;
+  flex-direction: column;
+}
+
+.headbr {
+  flex: 1;
+}
+
+.cont {
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  background-color: rgb(0, 0, 0, 0.3);
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  position: relative;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2em;
+  animation: slideIn 1s ease-out;
+}
+
+main {
+  padding: 20px;
+}
+
+.show {
+  display: grid;
+}
+
+.input-section {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+.sub {
+  background-color: 303332;
+  font: "Poppins";
+  border-radius: 20px;
+}
+.personal-header {
+  background-color: rgb(0, 0, 0, 0.3);
+  padding: 20px;
+}
+
+.text-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.text {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  justify-items: center;
+  align-items: center;
+  color: white;
+}
+
+.text-img {
+  background-color: rgb(161, 154, 154);
+  padding: 10px;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  justify-items: center;
+  align-items: center;
+  border-radius: 100%;
+  /* color: white; */
+}
+
+.contact-header {
+  background-color: rgb(0, 0, 0, 0.3);
+  padding: 20px;
+}
+.social-header {
+  background-color: rgb(0, 0, 0, 0.3);
+  padding: 20px;
+}
+
+.edu-header {
+  background-color: rgb(0, 0, 0, 0.3);
+  padding: 20px;
+}
+.skill-header {
+  background-color: rgb(0, 0, 0, 0.3);
+  padding: 20px;
+}
+
+.personal {
+  display: none;
+  width: 100%;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+.skill {
+  display: none;
+  width: 100%;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.education1 {
+  width: 100%;
+  display: none;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.social-links {
+  display: none;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+.contact {
+  display: none;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.skills {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.submit-div {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.pf-div {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+label {
+  margin-top: 10px;
+  font-weight: bold;
+  color: white;
+}
+
+input,
+select,
+button {
+  padding: 10px;
+  margin-top: 5px;
+  font-size: 16px;
+  border-radius: 4px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  background: none;
+  color: white;
+  font-family: "Poppins";
+  transition: transform 0.3s ease;
+}
+
+input:focus,
+select:focus {
+  transform: scale(1.05);
+}
+
+option {
+  color: black;
+}
+button {
+  background-color: #303332;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.15s ease, transform 0.15s ease;
+  font-family: "Poppins";
+}
+
+button:hover {
+  background-color: rgb(76, 0, 42);
+  transform: scale(1.05);
+}
+
+.style1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.texs {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  justify-items: center;
+  align-items: center;
+  justify-self: center;
+  align-self: center;
+}
+.profile-container {
+  width: 100%;
+  max-width: 800px;
+  margin: 15px auto;
+
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(8px);
+  border-radius: 15px;
+  height: 700px;
+  overflow: scroll;
+}
+
+.profile-header {
+  background: url("header-bg.jpg") no-repeat center center/cover;
+  color: #fff;
+  text-align: center;
+  padding: 50px 0;
+}
+
+#pro-info {
+  color: white;
+}
+.profile-section {
+  padding: 30px;
+
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(8px);
+}
+
+#basicInfoSection {
+  background: url("basic-info-bg.jpg") no-repeat center center/cover;
+}
+
+#educationSection {
+  background: url("education-bg.jpg") no-repeat center center/cover;
+}
+
+#socialSection {
+  background: url("social-bg.jpg") no-repeat center center/cover;
+}
+
+.profile-card {
+  background-color: rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(8px);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  animation: fadeInUp 1s ease-out;
+
+  color: white;
+}
+
+.profile-card img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.profile-card h2 {
+  margin-top: 0;
+}
+
+.profile-info p {
+  margin: 5px 0;
+  font-size: 1.2em;
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

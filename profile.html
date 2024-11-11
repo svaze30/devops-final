@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile Information</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="profile-container">
+      <header class="profile-header">
+        <h1 id="pro-info">Profile Information</h1>
+      </header>
+      <section class="profile-section" id="basicInfoSection">
+        <div class="profile-card style1">
+          <div class="texs">
+            <img id="displayImage" alt="Profile Image" />
+          </div>
+          <div class="profile-info">
+            <p id="displayName"></p>
+            <p id="displayEmail"></p>
+            <p id="displayPhone"></p>
+            <p id="displayAddress"></p>
+            <p id="displayDob"></p>
+          </div>
+        </div>
+      </section>
+      <section class="profile-section" id="educationSection">
+        <div class="profile-card">
+          <h2>Education</h2>
+          <p id="displayEducation"></p>
+          <p id="displayBranch"></p>
+          <p id="displaySkill"></p>
+        </div>
+      </section>
+      <section class="profile-section" id="socialSection">
+        <div class="profile-card">
+          <h2>Social Links</h2>
+
+          <a id="displayLinkedin" target="_blank"
+            ><img id="linkedinImage" alt="LinkedIn Profile"
+          /></a>
+          <a id="displayCodeforces" target="_blank"
+            ><img id="codeforcesImage" alt="Codeforces Profile"
+          /></a>
+        </div>
+      </section>
+    </div>
+    <script src="profile.js"></script>
+  </body>
+</html>
